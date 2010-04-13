@@ -1,0 +1,39 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	/*border: 2px solid #ccc;*/
+	border:0;
+	background-color: #fbfbfb;
+	padding: 15px;
+	width:200px;
+	opacity: 0.90;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+}
+#tooltip h3, #tooltip div { margin: 0; border:0;width:200px;}
+
+
+#tooltip dl {
+	margin: 0px;
+	padding:0px;
+	width: 200px;
+	}
+
+#tooltip dl dt {
+	background-color: #eee;
+	clear: left;
+	color: #333;
+	float: left;
+	margin: 2px 0px 0px 0px;
+	padding: 2px 5px;
+	width: 190px;
+	}
+
+
+
+#tooltip dl dd {
+	float: left;
+	margin: 2px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	width: 200px;
+	}
